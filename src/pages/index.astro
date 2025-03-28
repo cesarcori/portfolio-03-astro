@@ -1,11 +1,10 @@
 ---
 import Welcome from "../components/Welcome.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
-
-const pageTitle = "Home Cesar Cori";
+import { NICK_NAME_AUTHOR } from "../consts";
 ---
 
-<BaseLayout pageTitle={pageTitle}>
+<BaseLayout pageTitle={NICK_NAME_AUTHOR}>
   <main>
     <Welcome />
   </main>

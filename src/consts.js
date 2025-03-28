@@ -1,0 +1,1 @@
+export const NICK_NAME_AUTHOR = 'Cesar Cori';

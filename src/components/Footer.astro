@@ -1,1 +1,13 @@
-Footer
+---
+import { NICK_NAME_AUTHOR } from "../consts";
+
+const today = new Date();
+---
+
+<footer>
+  <p>
+    &copy; {today.getFullYear()}
+    {NICK_NAME_AUTHOR}
+  </p>
+  <p>All rights reserved.</p>
+</footer>
