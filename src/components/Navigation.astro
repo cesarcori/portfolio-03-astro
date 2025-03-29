@@ -1,5 +1,21 @@
-<div>
-  <a href="/">Home</a>
-  <a href="/about/">About</a>
-  <a href="/blog/">Blog</a>
-</div>
+---
+import { NICK_NAME_AUTHOR } from "../consts";
+---
+
+<nav class="flex space-x-10 hidden:md text-gray-700">
+  <a
+    href="/"
+    class="px-5 py-2 rounded-md text-gray-700 hover:bg-gray-100/90 hover:text-cyan-600"
+    >Home</a
+  >
+  <a
+    href="/about/"
+    class="px-5 py-2 rounded-md text-gray-700 hover:bg-gray-100/90 hover:text-cyan-600"
+    >About</a
+  >
+  <a
+    href="/blog/"
+    class="px-5 py-2 rounded-md text-gray-700 hover:bg-gray-100/90 hover:text-cyan-600"
+    >Blog</a
+  >
+</nav>
